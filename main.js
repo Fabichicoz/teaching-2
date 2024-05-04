@@ -6,3 +6,5 @@
 // para resumir const lo usamos solo para cuando, algo no va a cambiar y las variables cuando algo va a variar
 // const nombre = "Fabian";
 l// et edad = 28;
+
+console.log
