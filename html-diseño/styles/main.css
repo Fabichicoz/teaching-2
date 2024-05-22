@@ -1,0 +1,8 @@
+@import url('utils/fonts.css');
+@import url('utils/theme.css');
+@import url('global.css');
+
+/*Sections*/
+@import url('sections/hero.css');
+
+    

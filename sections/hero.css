@@ -1,0 +1,58 @@
+#hero {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    box-sizing: border-box;
+    color: var(--white-color);
+    .content {
+        h1 {
+            color: white;
+            font-size: 20px;
+            font-family: Comfortaa;
+            font-weight: 700px;
+            line-height: 24px;
+            word-wrap: break-word;
+        }
+    }
+    h2 {
+            color: white;
+            font-size: 40%;
+            font-family: Comfortaa;
+            font-weight: 700px;
+            line-height: 48px;
+
+    }
+      
+
+} 
+
+.head {
+    height: 100%;
+    display: flex;
+    align-items: end;
+    p {
+        text-align: center;
+        font-weight: 700;
+        color: var(--light-color);
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15.6px;
+        word-wrap: break-word;
+    }
+}
+
+.spacer {
+    width: 100%;
+    height: 100%;
+}
+
+.Assets {
+    height: 100%;
+    width: 100%;
+    background: red;
+}
+
+

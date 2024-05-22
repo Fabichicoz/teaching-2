@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Comfortaa';
+    src: url(../../Assets/fonts/static/Comfortaa-Light.ttf)
+         url(../../Assets/fonts/static/Comfortaa-Regular.ttf)
+         url(../../Assets/fonts/static/Comfortaa-Medium.ttf)
+         url(../../Assets/fonts/static/Comfortaa-SemiBold.ttf)
+         url(../../Assets/fonts/static/Comfortaa-Bold.ttf)
+         
+}
+
+*{
+    font-family: 'comfortaa', sans-serif;
+}
