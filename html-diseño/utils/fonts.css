@@ -1,13 +1,56 @@
 @font-face {
-    font-family: 'Comfortaa';
-    src: url(../../Assets/fonts/static/Comfortaa-Light.ttf)
-         url(../../Assets/fonts/static/Comfortaa-Regular.ttf)
-         url(../../Assets/fonts/static/Comfortaa-Medium.ttf)
-         url(../../Assets/fonts/static/Comfortaa-SemiBold.ttf)
-         url(../../Assets/fonts/static/Comfortaa-Bold.ttf)
-         
+	font-family: 'Comfortaa';
+	src: url(../../assets/fonts/Comfortaa/static/Comfortaa-Light.ttf),
+		url(../../assets/fonts/Comfortaa/static/Comfortaa-Regular.ttf),
+		url(../../assets/fonts/Comfortaa/static/Comfortaa-Medium.ttf),
+		url(../../assets/fonts/Comfortaa/static/Comfortaa-SemiBold.ttf),
+		url(../../assets/fonts/Comfortaa/static/Comfortaa-Bold.ttf);
 }
 
-*{
-    font-family: 'comfortaa', sans-serif;
+:root {
+	--text-small: 13px;
+	--text-normal: 16px;
+	--text-large: 20px;
+	--text-xlarge: 40px;
+}
+
+* {
+	font-family: 'Comfortaa', sans-serif;
+	font-size: var(--text-small);
+	font-weight: 500;
+}
+
+.text-sm {
+	font-size: var(--text-small);
+}
+
+.text-md {
+	font-size: var(--text-normal);
+	line-height: 15.6px;
+}
+
+.text-lg {
+	font-size: var(--text-large);
+	line-height: 24px;
+}
+
+.text-xl {
+	font-size: var(--text-xlarge);
+	line-height: 48px;
+}
+
+.font-light {
+	font-weight: 300;
+}
+
+.font-normal {
+	font-weight: 500;
+}
+
+.font-medium {
+	font-weight: 600;
+}
+
+.font-bold {
+	font-weight: 700;
 }

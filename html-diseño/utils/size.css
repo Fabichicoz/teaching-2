@@ -1,0 +1,42 @@
+:root {
+	--size-small: 14px;
+	--size-normal: 20px;
+	--size-large: 36px;
+	--size-xlarge: 50px;
+}
+
+.p-1 {
+	padding: var(--size-small);
+}
+
+.p-2 {
+	padding: var(--size-normal);
+}
+
+.p-3 {
+	padding: var(--size-large);
+}
+
+.p-4 {
+	padding: var(--size-xlarge);
+}
+
+.py-1 {
+	padding-top: var(--size-small);
+	padding-bottom: var(--size-small);
+}
+
+.py-2 {
+	padding-top: var(--size-normal);
+	padding-bottom: var(--size-normal);
+}
+
+.py-3 {
+	padding-top: var(--size-large);
+	padding-bottom: var(--size-large);
+}
+
+.py-4 {
+	padding-top: var(--size-xlarge);
+	padding-bottom: var(--size-xlarge);
+}

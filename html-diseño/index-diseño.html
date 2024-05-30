@@ -1,30 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cumpleaños</title>  
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-    <section id="hero">
-    <div class="Assets"></div>
-    <div class="head">
-    <p>
-    ¡Celebra con nosotros el cumpleaños <br /> 
-    de Maria y ayúdanos a hacer realidad todos sus deseos!
-    
-    </p>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Cumpleaños</title>
+		<link rel="stylesheet" href="styles/main.css" />
+	</head>
+	<body>
+		<section id="hero">
+			<div class="assets">
+				<img src="assets/images/flags.svg" alt="" />
+				<img src="assets/images/planet-1.svg" alt="" />
+				<img src="assets/images/stars.svg" alt="" />
+				<img src="assets/images/planet-2.svg" alt="" />
+				<img src="assets/images/planet-3.svg" alt="" />
+				<img src="assets/images/planet-4.svg" alt="" />
+			</div>
+			<div class="head">
+				<p class="text-sm text-white">
+					<span class="text-md"
+						>¡Celebra con nosotros el cumpleaños </span
+					><br />
+					de <span id="firstName">firstName</span> y ayúdanos a hacer
+					realidad todos sus deseos!
+				</p>
+			</div>
 
-    <div class="content">
-    <h1>ÚNETE A LA FIESTA DE</h1>
-    <H2>Maria Diaz</H2>
-    <samp class="date">30 03 2024</samp>
-        
-    </div>
-    
-    </div>
-    <div class="spacer"></div>
-    </section>
-</body>
+			<div class="content">
+				<h1 class="text-lg text-white font-bold">
+					ÚNETE A LA FIESTA DE
+				</h1>
+				<h2 class="text-xl text-white font-bold" id="fullName">
+					fullName
+				</h2>
+				<span class="date text-lg text-tertiary font-bold" id="date"
+					>birthday</span
+				>
+			</div>
+			<div class="spacer"></div>
+		</section>
+
+		<section id="about" class="bg-light p-2">
+			<div class="about-wrapper py-4 bg-white">
+				<h3 class="text-lg text-medium font-bold text-center">
+					Conoce a la cumpleañera
+				</h3>
+				<p class="text-sm text-medium text-center">
+					Estamos contentos en celebrar <br />
+					los 5 años de nuestra hija.
+				</p>
+				<figure class="img-wrapper">
+					<img src="./assets/images/avatar.png" alt="" />
+				</figure>
+				<h2 class="text-primary text-xl font-bold">María Díaz</h2>
+				<footer>
+					<p class="text-medium text-center">Hija de</p>
+					<p class="text-medium font-bold text-center">
+						Juan & Isabel Díaz
+					</p>
+				</footer>
+				<div id="redes-wrapper"></div>
+			</div>
+		</section>
+		<script src="./main.js"></script>
+	</body>
 </html>

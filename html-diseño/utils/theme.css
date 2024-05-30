@@ -1,6 +1,43 @@
 :root {
-    --main-color: #5138db;
-    --main-color: #ecd3d3;
-    --light-color: rgb(243, 231, 231);
+	--primary-color: #6c4fff;
+	--tertiary-color: #a2cdd7;
+	--white-color: #ffffff;
+	--light-color: #e6e6e6;
+	--medium-color: #514d6f;
+}
 
+.text-primary {
+	color: var(--primary-color);
+}
+
+.text-white {
+	color: var(--white-color);
+}
+
+.text-light {
+	color: var(--light-color);
+}
+
+.text-tertiary {
+	color: var(--tertiary-color);
+}
+
+.text-medium {
+	color: var(--medium-color);
+}
+
+.bg-primary {
+	background-color: var(--primary-color);
+}
+
+.bg-white {
+	background-color: var(--white-color);
+}
+
+.bg-light {
+	background-color: var(--light-color);
+}
+
+.bg-tertiary {
+	background-color: var(--tertiary-color);
 }

@@ -1,8 +1,8 @@
 @import url('utils/fonts.css');
 @import url('utils/theme.css');
+@import url('utils/size.css');
 @import url('global.css');
 
-/*Sections*/
+/* Sections */
 @import url('sections/hero.css');
-
-    
+@import url('sections/about.css');
